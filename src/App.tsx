@@ -9,7 +9,7 @@ function App() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   
   // Direct stream URL for RRI PRO 1 Mataram
-  const streamUrl = "http://stream-node1.rri.co.id:9113/rrimatarampro1.mp3";
+  const streamUrl = "https://stream-node0.rri.co.id/streaming/11/9011/rrimedanpro1.mp3";
   
   useEffect(() => {
     if (audioRef.current) {
